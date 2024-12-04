@@ -1,0 +1,2 @@
+export { CardNewsEvents } from './CardNewsEvents';
+
