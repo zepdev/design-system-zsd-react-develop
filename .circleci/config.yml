@@ -32,7 +32,7 @@ jobs:
           command: yarn test
       - run:
           name: 'Runs visual tests'
-          command: CHROMATIC_PROJECT_TOKEN=$CHROMATIC_PROJECT_TOKEN_ZPS yarn chromatic
+          command: CHROMATIC_PROJECT_TOKEN=$CHROMATIC_PROJECT_TOKEN_ZSD yarn chromatic
       - store_test_results:
           path: ./test-results/
           when: always
@@ -77,7 +77,7 @@ jobs:
                 git fetch origin
                 git checkout develop
                 git merge origin/main --ff --message "chore: merge changes in main back into develop [skip ci]"
-                git push -q https://${GITHUB_TOKEN}@github.com/zepdev/design-system-zps-react.git develop
+                git push -q https://${GITHUB_TOKEN}@github.com/zepdev/design-system-zsd-react-develop.git develop
             fi
 
   deploy_storybook_develop:
@@ -100,8 +100,8 @@ jobs:
             git config --global user.name "zeppelin-design-team-bot"
             yarn build-storybook:develop
             cd ~
-            git clone git@github.com:zepdev/design-system-zps-react-develop.git
-            cd design-system-zps-react-develop
+            git clone git@github.com:zepdev/design-system-zsd-react-develop.git
+            cd design-system-zsd-react-develop
             cp -R ../project/storybook-static/* .
             git add .
             if [[ `git status --porcelain` ]]; then
@@ -130,8 +130,8 @@ jobs:
             git config --global user.name "zeppelin-design-team-bot"
             yarn build-storybook
             cd ~
-            git clone git@github.com:zepdev/design-system-zps-react-prod.git
-            cd design-system-zps-react-prod
+            git clone git@github.com:zepdev/design-system-zsd-react-prod.git.git
+            cd design-system-zsd-react-prod
             cp -R ../project/storybook-static/* .
             git add .
             if [[ `git status --porcelain` ]]; then

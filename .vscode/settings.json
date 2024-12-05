@@ -14,6 +14,6 @@
   },
   "sonarlint.connectedMode.project": {
     "connectionId": "zepdev",
-    "projectKey": "zepdev_design-system-zps-react"
+    "projectKey": "zepdev_design-system-zsd-react"
   }
 }

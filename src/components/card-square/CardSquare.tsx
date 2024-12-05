@@ -84,8 +84,8 @@ const CardSquare: FC<CardSquareProps> = ({
         'zep-relative',
         'zep-group',
         'hover:zep-brightness-90',
-        'zep-min-w-[282px]',
-        'zep-max-w-[700px]',
+        // 'zep-min-w-[282px]',
+        // 'zep-max-w-[700px]',
         'zep-w-full',
         isContainerClassApplied ? 'zep-@container' : 'zep-@container-normal',
       )}
@@ -119,7 +119,7 @@ const CardSquare: FC<CardSquareProps> = ({
                 },
                 'zep-typography-bodyText',
                 'zep-text-background-light',
-                'zep-text-left',
+                // 'zep-text-left',
                 'zep-break-all',
               )}
             >
