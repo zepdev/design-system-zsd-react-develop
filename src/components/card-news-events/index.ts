@@ -1,2 +1,0 @@
-export { CardNewsEvents } from './CardNewsEvents';
-
