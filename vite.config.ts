@@ -19,7 +19,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'lib', 'index.ts'),
       formats: ['es'],
-      name: 'design-system-zps-react',
+      name: 'design-system-zsd-react',
       fileName: (ext) => `index.${ext}.js`,
     },
     rollupOptions: {
