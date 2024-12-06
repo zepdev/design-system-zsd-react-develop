@@ -5,5 +5,5 @@ const libVersion = process.env.NODE_ENV === 'development' ? `DEVELOPMENT PREVIEW
 
 export default create({
   base: 'light',
-  brandTitle: `Power Systems\nReact Component Library\n${libVersion}`,
+  brandTitle: `Zeppelin Systems\nReact Component Library\n${libVersion}`,
 });
