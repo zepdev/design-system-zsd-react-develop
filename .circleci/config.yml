@@ -106,7 +106,7 @@ jobs:
             git add .
             if [[ `git status --porcelain` ]]; then
                 git commit -m 'Publish latest acceptance preview'
-                git push -u origin master
+                git push -u origin main
             fi
 
   deploy_storybook_production:
