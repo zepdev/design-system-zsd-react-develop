@@ -1,3 +1,10 @@
+# 1.0.0 (2024-12-06)
+
+
+### Bug Fixes
+
+* card square ([0e2bb6a](https://github.com/zepdev/design-system-zsd-react/commit/0e2bb6aa605dc0ddf68f4221189088b9f256cf37))
+
 ## [1.3.6](https://github.com/zepdev/design-system-zps-react/compare/v1.3.5...v1.3.6) (2024-11-12)
 
 
