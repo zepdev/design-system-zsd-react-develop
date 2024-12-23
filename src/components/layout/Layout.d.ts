@@ -1,5 +1,4 @@
 import { LayoutProps } from './layout.interface';
 
-declare const Layout: ({ children, className }: LayoutProps) => import("react/jsx-dev-runtime").JSX.Element;
-export { Layout };
+export declare const Layout: ({ wrapperClassname, children, className, testId }: LayoutProps) => import("react/jsx-dev-runtime").JSX.Element;
 //# sourceMappingURL=Layout.d.ts.map

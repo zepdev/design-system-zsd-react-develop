@@ -3,16 +3,9 @@ import { HeaderShortComponentProps } from './HeaderShortComponent.interface';
 
 declare const meta: {
     title: string;
-    component: ({ tagline, headline, showArrow, className, variant, }: HeaderShortComponentProps) => import("react/jsx-dev-runtime").JSX.Element;
+    component: ({ tagline, headline, showArrow, className, }: HeaderShortComponentProps) => import("react/jsx-dev-runtime").JSX.Element;
     tags: string[];
-    argTypes: {
-        variant: {
-            control: {
-                type: string;
-                options: string[];
-            };
-        };
-    };
+    argTypes: {};
 };
 export default meta;
 type Story = StoryObj<typeof meta>;
