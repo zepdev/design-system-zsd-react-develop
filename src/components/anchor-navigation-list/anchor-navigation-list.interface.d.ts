@@ -1,12 +1,8 @@
-import { ReactNode } from 'react';
-import { AnchorNavigationCardProps } from '../anchor-navigation-card';
-import { AnchorNavigationVariant } from '../anchor-navigation-card/anchor-navigation-card.interface';
+import { Tab } from '../anchor-navigation-tab/anchor-navigation-tab.interface';
 
 export interface AnchorNavigationListProps {
-    headlines: Omit<AnchorNavigationCardProps, 'variant'>[];
-    variant: AnchorNavigationVariant;
-    isLoading?: boolean;
-    children?: ReactNode;
-    className?: string;
+    tabs: Tab[];
+    handleButtonClick?: () => void;
+    buttonText?: string;
 }
 //# sourceMappingURL=anchor-navigation-list.interface.d.ts.map
