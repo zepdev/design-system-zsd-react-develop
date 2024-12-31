@@ -1,4 +1,4 @@
-import { Tab } from './anchor-navigation-tab';
+import { Tab } from '../anchor-navigation-tab/anchor-navigation-tab.interface';
 
 export interface AnchorNavigationListProps {
     tabs: Tab[];

@@ -1,5 +1,5 @@
 import { ButtonHTMLAttributes, MouseEvent } from 'react';
-import { ZsdButtonVariant } from '../zsd-button';
+import { ZpsButtonVariant } from '../zsd-button';
 
 export type ProductItem = {
     title?: string;
@@ -12,7 +12,7 @@ export interface ProductHighLightProps extends ButtonHTMLAttributes<HTMLButtonEl
     productDetails: ProductItem[];
     buttonText: string;
     buttonTitle?: string;
-    buttonVariant?: ZsdButtonVariant;
+    buttonVariant?: ZpsButtonVariant;
     onClick?: (ev: MouseEvent<HTMLElement>) => void;
 }
 //# sourceMappingURL=product-highlight.interface.d.ts.map

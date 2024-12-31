@@ -1,7 +1,7 @@
 import { FunctionalIconNames } from '@zepdev/design-system-component-library-react';
 import { ButtonHTMLAttributes, MouseEvent, ReactNode } from 'react';
 
-export declare enum ZsdButtonVariant {
+export declare enum ZpsButtonVariant {
     PrimaryDark = "primary-dark",
     SecondaryDark = "secondary-dark",
     SecondaryLight = "secondary-light",
@@ -10,7 +10,7 @@ export declare enum ZsdButtonVariant {
 export interface ZpsButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     className?: string;
     label?: string;
-    variant?: ZsdButtonVariant;
+    variant?: ZpsButtonVariant;
     icon?: FunctionalIconNames;
     iconPosition?: 'left' | 'right';
     isLoading?: boolean;

@@ -1,3 +1,3 @@
 export { ProcessChain } from './ProcessChain';
-export type { ProcessChainProps, ProcessChainItem } from './processChain.interface';
+export { type ProcessChainProps } from './processChain.interface';
 //# sourceMappingURL=index.d.ts.map
