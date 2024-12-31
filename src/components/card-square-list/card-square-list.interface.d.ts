@@ -1,13 +1,7 @@
-import { ReactNode } from '../../../node_modules/@types/react';
-import { GlobalVariants } from '../../interfaces/global-variants';
-import { CardSquareProps } from '../card-square/card-square.interface';
+import { CardSquareProps } from './card-square';
+import { HeaderLongProps } from '../header-long';
 
-export interface CardSquareListProps {
-    headlines: Omit<CardSquareProps, 'variant'>[];
-    imageSrc: string;
-    imageAlt: string;
-    children?: ReactNode;
-    variant?: GlobalVariants;
-    cardListsLength?: number;
+export interface CardSquareListProps extends Partial<HeaderLongProps> {
+    items: CardSquareProps[];
 }
 //# sourceMappingURL=card-square-list.interface.d.ts.map

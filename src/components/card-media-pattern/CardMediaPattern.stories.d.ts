@@ -10,7 +10,4 @@ declare const meta: {
 export default meta;
 type Story = StoryObj<typeof meta>;
 export declare const Default: Story;
-export declare const CardMediaVertical: Story;
-export declare const CardMedia3Cards: Story;
-export declare const CardMedia3PlusCards: Story;
 //# sourceMappingURL=CardMediaPattern.stories.d.ts.map

@@ -1,17 +1,10 @@
-import { FunctionalIconNames } from '@zepdev/design-system-component-library-react';
-import { HTMLAttributes } from 'react';
+import { HeaderLongProps } from '../header-long';
 
-export interface LinkItem {
-    icon: FunctionalIconNames;
-    link: string;
-}
-export interface ContentItem {
+export interface ProcessChainItem {
     headline: string;
-    linkItems?: LinkItem[];
-    listItems?: string[];
+    listItems: string[];
 }
-export interface ProcessChainProps extends HTMLAttributes<HTMLDivElement> {
-    contentItems: ContentItem[];
-    linkChain: boolean;
+export interface ProcessChainProps extends Partial<HeaderLongProps> {
+    contentItems: ProcessChainItem[];
 }
 //# sourceMappingURL=processChain.interface.d.ts.map
