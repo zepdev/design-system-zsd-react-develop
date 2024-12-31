@@ -6,15 +6,9 @@ declare const meta: {
     component: import('react').FC<CardSquareListProps>;
     tags: string[];
     argTypes: {
-        headlines: {
+        items: {
             control: {
                 type: string;
-            };
-        };
-        variant: {
-            control: {
-                type: string;
-                options: string[];
             };
         };
     };
@@ -22,6 +16,7 @@ declare const meta: {
 export default meta;
 type Story = StoryObj<typeof meta>;
 export declare const Default: Story;
+export declare const WithHeadline: Story;
 export declare const With3Items: Story;
 export declare const With4Items: Story;
 export declare const With5Items: Story;
