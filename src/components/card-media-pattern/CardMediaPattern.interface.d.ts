@@ -1,11 +1,13 @@
-import { CardMediaProps } from '../card-media-component';
+import { CardMediaProps } from './card-media-component';
 import { HeaderLongProps } from '../header-long';
-import { GlobalVariants } from '../../interfaces/global-variants';
+import { Tab } from '../anchor-navigation-list/anchor-navigation-tab';
 
-export interface CardMediaPatternProps extends Omit<HeaderLongProps, 'textColor' | 'type'> {
+export interface CardsSectionProps extends Tab {
     cards: CardMediaProps[];
+}
+export interface CardMediaPatternProps extends Omit<HeaderLongProps, 'textColor'> {
     className?: string;
-    variant?: GlobalVariants;
+    tabs: CardsSectionProps[];
     imageOrientation?: 'horizontal' | 'vertical';
 }
 //# sourceMappingURL=CardMediaPattern.interface.d.ts.map

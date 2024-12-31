@@ -1,5 +1,5 @@
 import { StoryObj } from '@storybook/react';
-import { ZpsButtonProps, ZpsButtonVariant } from './zsd-button.interface';
+import { ZpsButtonProps, ZsdButtonVariant } from './zsd-button.interface';
 
 declare const meta: {
     title: string;
@@ -19,7 +19,7 @@ declare const meta: {
         variant: {
             control: {
                 type: string;
-                options: ZpsButtonVariant[];
+                options: ZsdButtonVariant[];
             };
         };
     };
