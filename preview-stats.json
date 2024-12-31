@@ -301,6 +301,15 @@
       ]
     },
     {
+      "id": "./src/components/page-entry/PageEntry.stories.tsx",
+      "name": "./src/components/page-entry/PageEntry.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
       "id": "./src/components/partner-communication/PartnerCommunication.stories.tsx",
       "name": "./src/components/partner-communication/PartnerCommunication.stories.tsx",
       "reasons": [
@@ -449,10 +458,10 @@
           "moduleName": "./src/components/hero/Hero.stories.tsx"
         },
         {
-          "moduleName": "./src/components/usp-list/UspList.stories.tsx"
+          "moduleName": "./src/components/USP/Usp.stories.tsx"
         },
         {
-          "moduleName": "./src/components/USP/Usp.stories.tsx"
+          "moduleName": "./src/components/usp-list/UspList.stories.tsx"
         },
         {
           "moduleName": "./src/components/partner-communication/PartnerCommunication.stories.tsx"
@@ -544,6 +553,15 @@
       ]
     },
     {
+      "id": "./src/components/card-events/CardEvents.tsx",
+      "name": "./src/components/card-events/CardEvents.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/card-events/CardEvents.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/card-events/card-event/CardEvent.tsx",
       "name": "./src/components/card-events/card-event/CardEvent.tsx",
       "reasons": [
@@ -552,15 +570,6 @@
         },
         {
           "moduleName": "./src/components/card-events/card-event/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/card-events/CardEvents.tsx",
-      "name": "./src/components/card-events/CardEvents.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/card-events/CardEvents.stories.tsx"
         }
       ]
     },
@@ -654,6 +663,9 @@
         },
         {
           "moduleName": "./src/components/video/Video.tsx"
+        },
+        {
+          "moduleName": "./src/components/page-entry/PageEntry.tsx"
         }
       ]
     },
@@ -751,6 +763,15 @@
       ]
     },
     {
+      "id": "./src/components/page-entry/PageEntry.tsx",
+      "name": "./src/components/page-entry/PageEntry.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/page-entry/PageEntry.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/process-chain/ProcessChain.tsx",
       "name": "./src/components/process-chain/ProcessChain.tsx",
       "reasons": [
@@ -780,6 +801,9 @@
         },
         {
           "moduleName": "./src/components/header-long-component/HeaderLongComponent.tsx"
+        },
+        {
+          "moduleName": "./src/components/page-entry/PageEntry.tsx"
         }
       ]
     },
@@ -789,33 +813,6 @@
       "reasons": [
         {
           "moduleName": "./src/components/product-highlight/Product-highlight.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/single-link-list/SingleLinkList.tsx",
-      "name": "./src/components/single-link-list/SingleLinkList.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/single-link-list/SingleLinkList.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/usp-list/UspList.tsx",
-      "name": "./src/components/usp-list/UspList.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/usp-list/UspList.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/video/Video.tsx",
-      "name": "./src/components/video/Video.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/video/Video.stories.tsx"
         }
       ]
     },
@@ -837,6 +834,33 @@
       "reasons": [
         {
           "moduleName": "./src/components/footer/Footer.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/single-link-list/SingleLinkList.tsx",
+      "name": "./src/components/single-link-list/SingleLinkList.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/single-link-list/SingleLinkList.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/video/Video.tsx",
+      "name": "./src/components/video/Video.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/video/Video.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/usp-list/UspList.tsx",
+      "name": "./src/components/usp-list/UspList.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/usp-list/UspList.stories.tsx"
         }
       ]
     },
@@ -944,10 +968,10 @@
           "moduleName": "./src/components/layout/Layout.stories.tsx"
         },
         {
-          "moduleName": "./src/components/video/Video.tsx"
+          "moduleName": "./src/components/layout/index.ts"
         },
         {
-          "moduleName": "./src/components/layout/index.ts"
+          "moduleName": "./src/components/video/Video.tsx"
         }
       ]
     },
@@ -1059,6 +1083,18 @@
         },
         {
           "moduleName": "./src/components/single-link-list/SingleLinkList.tsx"
+        },
+        {
+          "moduleName": "./src/components/page-entry/PageEntry.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/card-events/card-event/index.ts",
+      "name": "./src/components/card-events/card-event/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/card-events/CardEvents.tsx"
         }
       ]
     },
@@ -1080,15 +1116,6 @@
         },
         {
           "moduleName": "./src/components/rich-text/BlocksRichText.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/card-events/card-event/index.ts",
-      "name": "./src/components/card-events/card-event/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/card-events/CardEvents.tsx"
         }
       ]
     },
@@ -1477,11 +1504,41 @@
       ]
     },
     {
+      "id": "./src/assets/carousel-left.svg",
+      "name": "./src/assets/carousel-left.svg",
+      "reasons": [
+        {
+          "moduleName": "./src/components/page-entry/PageEntry.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/assets/play.svg",
       "name": "./src/assets/play.svg",
       "reasons": [
         {
+          "moduleName": "./src/components/page-entry/PageEntry.tsx"
+        },
+        {
           "moduleName": "./src/components/video/ResponsivePlayer.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/hooks/useWindowDimensions.ts",
+      "name": "./src/hooks/useWindowDimensions.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/page-entry/PageEntry.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/styles/globals.css",
+      "name": "./src/styles/globals.css",
+      "reasons": [
+        {
+          "moduleName": "./src/components/page-entry/PageEntry.tsx"
         }
       ]
     }
