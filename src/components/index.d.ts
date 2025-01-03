@@ -13,6 +13,7 @@ export * from './footer';
 export * from './header-long';
 export * from './header-short';
 export * from './hero';
+export * from './small-hero';
 export * from './lead-text';
 export * from './mediaText-simple';
 export * from './multi-link-list';
