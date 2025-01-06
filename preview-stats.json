@@ -247,6 +247,15 @@
       ]
     },
     {
+      "id": "./src/components/infographic-image/InfographicImage.stories.tsx",
+      "name": "./src/components/infographic-image/InfographicImage.stories.tsx",
+      "reasons": [
+        {
+          "moduleName": "/virtual:/@storybook/builder-vite/storybook-stories.js"
+        }
+      ]
+    },
+    {
       "id": "./src/components/layout/Layout.stories.tsx",
       "name": "./src/components/layout/Layout.stories.tsx",
       "reasons": [
@@ -492,6 +501,12 @@
         },
         {
           "moduleName": "./src/components/contact-form-full/contact-form-locales.ts"
+        },
+        {
+          "moduleName": "./src/components/infographic-image/InfoPoint.tsx"
+        },
+        {
+          "moduleName": "./src/components/infographic-image/PointCard.tsx"
         }
       ]
     },
@@ -613,15 +628,6 @@
       ]
     },
     {
-      "id": "./src/components/contact-form-full/ContactFormFull.tsx",
-      "name": "./src/components/contact-form-full/ContactFormFull.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/contact-form-full/ContactFormFull.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/contact-card/ContactCard.tsx",
       "name": "./src/components/contact-card/ContactCard.tsx",
       "reasons": [
@@ -630,6 +636,15 @@
         },
         {
           "moduleName": "./src/components/contact-card/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/contact-form-full/ContactFormFull.tsx",
+      "name": "./src/components/contact-form-full/ContactFormFull.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/contact-form-full/ContactFormFull.stories.tsx"
         }
       ]
     },
@@ -688,18 +703,6 @@
       ]
     },
     {
-      "id": "./src/components/header-short-component/HeaderShortComponent.tsx",
-      "name": "./src/components/header-short-component/HeaderShortComponent.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/header-short-component/HeaderShortComponent.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/header-short-component/index.ts"
-        }
-      ]
-    },
-    {
       "id": "./src/components/header-short/HeaderShort.tsx",
       "name": "./src/components/header-short/HeaderShort.tsx",
       "reasons": [
@@ -708,6 +711,18 @@
         },
         {
           "moduleName": "./src/components/header-short/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/header-short-component/HeaderShortComponent.tsx",
+      "name": "./src/components/header-short-component/HeaderShortComponent.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/header-short-component/HeaderShortComponent.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/header-short-component/index.ts"
         }
       ]
     },
@@ -726,24 +741,6 @@
       "reasons": [
         {
           "moduleName": "./src/components/lead-text/LeadText.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/assets/zep-cat-logo.svg",
-      "name": "./src/assets/zep-cat-logo.svg",
-      "reasons": [
-        {
-          "moduleName": "./src/components/navigation/Navigation.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/navigation/Navigation.tsx",
-      "name": "./src/components/navigation/Navigation.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/navigation/Navigation.stories.tsx"
         }
       ]
     },
@@ -768,6 +765,24 @@
         },
         {
           "moduleName": "./src/components/multi-link-list/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/assets/zep-logo.svg",
+      "name": "./src/assets/zep-logo.svg",
+      "reasons": [
+        {
+          "moduleName": "./src/components/navigation/Navigation.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/navigation/Navigation.tsx",
+      "name": "./src/components/navigation/Navigation.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/navigation/Navigation.stories.tsx"
         }
       ]
     },
@@ -800,10 +815,10 @@
           "moduleName": "./src/components/anchor-navigation-list/AnchorNavigationList.tsx"
         },
         {
-          "moduleName": "./src/components/contact-form-full/ContactFormFull.tsx"
+          "moduleName": "./src/components/contact-form/ContactForm.tsx"
         },
         {
-          "moduleName": "./src/components/contact-form/ContactForm.tsx"
+          "moduleName": "./src/components/contact-form-full/ContactFormFull.tsx"
         },
         {
           "moduleName": "./src/components/rich-text/RichText.tsx"
@@ -835,15 +850,6 @@
       ]
     },
     {
-      "id": "./src/components/small-hero/SmallHero.tsx",
-      "name": "./src/components/small-hero/SmallHero.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/small-hero/SmallHero.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/USP/Usp.tsx",
       "name": "./src/components/USP/Usp.tsx",
       "reasons": [
@@ -865,20 +871,20 @@
       ]
     },
     {
+      "id": "./src/components/small-hero/SmallHero.tsx",
+      "name": "./src/components/small-hero/SmallHero.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/small-hero/SmallHero.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/usp-list/UspList.tsx",
       "name": "./src/components/usp-list/UspList.tsx",
       "reasons": [
         {
           "moduleName": "./src/components/usp-list/UspList.stories.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/video/Video.tsx",
-      "name": "./src/components/video/Video.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/video/Video.stories.tsx"
         }
       ]
     },
@@ -943,6 +949,15 @@
       ]
     },
     {
+      "id": "./src/components/video/Video.tsx",
+      "name": "./src/components/video/Video.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/video/Video.stories.tsx"
+        }
+      ]
+    },
+    {
       "id": "./src/components/header-long-component/HeaderLongComponent.tsx",
       "name": "./src/components/header-long-component/HeaderLongComponent.tsx",
       "reasons": [
@@ -975,6 +990,15 @@
         },
         {
           "moduleName": "./src/components/card-media-pattern/card-media-component/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/infographic-image/InfographicImage.tsx",
+      "name": "./src/components/infographic-image/InfographicImage.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/infographic-image/InfographicImage.stories.tsx"
         }
       ]
     },
@@ -1194,15 +1218,18 @@
       "reasons": [
         {
           "moduleName": "./src/components/card-square-list/card-square/CardSquare.tsx"
+        },
+        {
+          "moduleName": "./src/components/infographic-image/InfographicImage.tsx"
         }
       ]
     },
     {
-      "id": "./src/constants/countries.ts",
-      "name": "./src/constants/countries.ts",
+      "id": "./src/components/contact-card/index.ts",
+      "name": "./src/components/contact-card/index.ts",
       "reasons": [
         {
-          "moduleName": "./src/components/contact-form-full/ContactFormFull.tsx"
+          "moduleName": "./src/components/contact-form/ContactForm.tsx"
         }
       ]
     },
@@ -1211,17 +1238,8 @@
       "name": "./src/components/form-fields/checkbox/index.ts",
       "reasons": [
         {
-          "moduleName": "./src/components/contact-form-full/ContactFormFull.tsx"
-        },
-        {
           "moduleName": "./src/components/contact-form/ContactForm.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/form-fields/drop-down-filter/index.ts",
-      "name": "./src/components/form-fields/drop-down-filter/index.ts",
-      "reasons": [
+        },
         {
           "moduleName": "./src/components/contact-form-full/ContactFormFull.tsx"
         }
@@ -1232,17 +1250,8 @@
       "name": "./src/components/form-fields/input/index.ts",
       "reasons": [
         {
-          "moduleName": "./src/components/contact-form-full/ContactFormFull.tsx"
-        },
-        {
           "moduleName": "./src/components/contact-form/ContactForm.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/form-fields/phone-input/index.ts",
-      "name": "./src/components/form-fields/phone-input/index.ts",
-      "reasons": [
+        },
         {
           "moduleName": "./src/components/contact-form-full/ContactFormFull.tsx"
         }
@@ -1253,10 +1262,10 @@
       "name": "./src/components/form-fields/radio/index.ts",
       "reasons": [
         {
-          "moduleName": "./src/components/contact-form-full/ContactFormFull.tsx"
+          "moduleName": "./src/components/contact-form/ContactForm.tsx"
         },
         {
-          "moduleName": "./src/components/contact-form/ContactForm.tsx"
+          "moduleName": "./src/components/contact-form-full/ContactFormFull.tsx"
         }
       ]
     },
@@ -1265,17 +1274,8 @@
       "name": "./src/components/form-fields/text-area/index.ts",
       "reasons": [
         {
-          "moduleName": "./src/components/contact-form-full/ContactFormFull.tsx"
-        },
-        {
           "moduleName": "./src/components/contact-form/ContactForm.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/contact-form-full/contact-form-locales.ts",
-      "name": "./src/components/contact-form-full/contact-form-locales.ts",
-      "reasons": [
+        },
         {
           "moduleName": "./src/components/contact-form-full/ContactFormFull.tsx"
         }
@@ -1291,11 +1291,56 @@
       ]
     },
     {
-      "id": "./src/components/contact-card/index.ts",
-      "name": "./src/components/contact-card/index.ts",
+      "id": "./src/constants/countries.ts",
+      "name": "./src/constants/countries.ts",
       "reasons": [
         {
-          "moduleName": "./src/components/contact-form/ContactForm.tsx"
+          "moduleName": "./src/components/contact-form-full/ContactFormFull.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/form-fields/drop-down-filter/index.ts",
+      "name": "./src/components/form-fields/drop-down-filter/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/contact-form-full/ContactFormFull.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/form-fields/phone-input/index.ts",
+      "name": "./src/components/form-fields/phone-input/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/contact-form-full/ContactFormFull.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/contact-form-full/contact-form-locales.ts",
+      "name": "./src/components/contact-form-full/contact-form-locales.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/contact-form-full/ContactFormFull.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/header-short-component/index.ts",
+      "name": "./src/components/header-short-component/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/header-short/HeaderShort.tsx"
+        },
+        {
+          "moduleName": "./src/components/multi-link-list/MultiLinkList.tsx"
+        },
+        {
+          "moduleName": "./src/components/rich-text/RichText.tsx"
+        },
+        {
+          "moduleName": "./src/components/single-link-list/SingleLinkList.tsx"
         }
       ]
     },
@@ -1312,17 +1357,29 @@
       ]
     },
     {
-      "id": "./src/components/header-short-component/index.ts",
-      "name": "./src/components/header-short-component/index.ts",
+      "id": "./src/components/infographic-image/InfoPoint.tsx",
+      "name": "./src/components/infographic-image/InfoPoint.tsx",
       "reasons": [
         {
-          "moduleName": "./src/components/header-short/HeaderShort.tsx"
-        },
+          "moduleName": "./src/components/infographic-image/InfographicImage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/infographic-image/PointCard.tsx",
+      "name": "./src/components/infographic-image/PointCard.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/infographic-image/InfographicImage.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/link-list-item/index.ts",
+      "name": "./src/components/link-list-item/index.ts",
+      "reasons": [
         {
           "moduleName": "./src/components/multi-link-list/MultiLinkList.tsx"
-        },
-        {
-          "moduleName": "./src/components/rich-text/RichText.tsx"
         },
         {
           "moduleName": "./src/components/single-link-list/SingleLinkList.tsx"
@@ -1368,18 +1425,6 @@
       "reasons": [
         {
           "moduleName": "./src/components/navigation/Navigation.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/link-list-item/index.ts",
-      "name": "./src/components/link-list-item/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/multi-link-list/MultiLinkList.tsx"
-        },
-        {
-          "moduleName": "./src/components/single-link-list/SingleLinkList.tsx"
         }
       ]
     },
@@ -1459,29 +1504,11 @@
       ]
     },
     {
-      "id": "./src/components/form-fields/drop-down-filter/DropdownFilter.tsx",
-      "name": "./src/components/form-fields/drop-down-filter/DropdownFilter.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/form-fields/drop-down-filter/index.ts"
-        }
-      ]
-    },
-    {
       "id": "./src/components/form-fields/input/Input.tsx",
       "name": "./src/components/form-fields/input/Input.tsx",
       "reasons": [
         {
           "moduleName": "./src/components/form-fields/input/index.ts"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/form-fields/phone-input/PhoneInput.tsx",
-      "name": "./src/components/form-fields/phone-input/PhoneInput.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/form-fields/phone-input/index.ts"
         }
       ]
     },
@@ -1500,6 +1527,24 @@
       "reasons": [
         {
           "moduleName": "./src/components/form-fields/text-area/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/form-fields/drop-down-filter/DropdownFilter.tsx",
+      "name": "./src/components/form-fields/drop-down-filter/DropdownFilter.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/form-fields/drop-down-filter/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/form-fields/phone-input/PhoneInput.tsx",
+      "name": "./src/components/form-fields/phone-input/PhoneInput.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/form-fields/phone-input/index.ts"
         }
       ]
     },
