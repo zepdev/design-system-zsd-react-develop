@@ -1,10 +1,7 @@
-import { GlobalVariants } from '../../interfaces/global-variants';
-import { USPProps } from '../USP/usp.interface';
+import { USPProps } from './usp-card';
+import { HeaderLongComponentProps } from '../header-long-component';
 
-export interface USPListProps {
-    headerTitle: string;
-    tagline?: string;
-    variant?: GlobalVariants;
-    uspCards?: USPProps[];
+export interface USPListProps extends HeaderLongComponentProps {
+    uspCards: USPProps[];
 }
 //# sourceMappingURL=usp-list.interface.d.ts.map
