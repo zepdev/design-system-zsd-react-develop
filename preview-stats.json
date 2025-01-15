@@ -463,14 +463,47 @@
       ]
     },
     {
-      "id": "./src/components/anchor-navigation-list/anchor-navigation-tab/AnchorNavigationTab.tsx",
-      "name": "./src/components/anchor-navigation-list/anchor-navigation-tab/AnchorNavigationTab.tsx",
+      "id": "./src/interfaces/global-variants.ts",
+      "name": "./src/interfaces/global-variants.ts",
       "reasons": [
         {
-          "moduleName": "./src/components/anchor-navigation-list/anchor-navigation-tab/AnchorNavigationTab.stories.tsx"
+          "moduleName": "./src/components/accrodion-pattern/AccordionPattern.stories.tsx"
         },
         {
-          "moduleName": "./src/components/anchor-navigation-list/anchor-navigation-tab/index.ts"
+          "moduleName": "./src/components/header-long-component/HeaderLongComponent.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/hero/Hero.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/partner-communication/PartnerCommunication.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/accrodion-pattern/AccordionPattern.tsx"
+        },
+        {
+          "moduleName": "./src/components/hero/Hero.tsx"
+        },
+        {
+          "moduleName": "./src/components/partner-communication/PartnerCommunication.tsx"
+        },
+        {
+          "moduleName": "./src/components/contact-form-full/contact-form-locales.ts"
+        },
+        {
+          "moduleName": "./src/components/infographic-image/InfoPoint.tsx"
+        },
+        {
+          "moduleName": "./src/components/infographic-image/PointCard.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/accrodion-pattern/AccordionPattern.tsx",
+      "name": "./src/components/accrodion-pattern/AccordionPattern.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/accrodion-pattern/AccordionPattern.stories.tsx"
         }
       ]
     },
@@ -511,20 +544,23 @@
       ]
     },
     {
-      "id": "./src/components/accrodion-pattern/AccordionPattern.tsx",
-      "name": "./src/components/accrodion-pattern/AccordionPattern.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/accrodion-pattern/AccordionPattern.stories.tsx"
-        }
-      ]
-    },
-    {
       "id": "./src/components/articles/Articles.tsx",
       "name": "./src/components/articles/Articles.tsx",
       "reasons": [
         {
           "moduleName": "./src/components/articles/Articles.stories.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/anchor-navigation-list/anchor-navigation-tab/AnchorNavigationTab.tsx",
+      "name": "./src/components/anchor-navigation-list/anchor-navigation-tab/AnchorNavigationTab.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/anchor-navigation-list/anchor-navigation-tab/AnchorNavigationTab.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/anchor-navigation-list/anchor-navigation-tab/index.ts"
         }
       ]
     },
@@ -617,9 +653,6 @@
           "moduleName": "./src/components/header-long-component/HeaderLongComponent.stories.tsx"
         },
         {
-          "moduleName": "./src/components/accrodion-pattern/AccordionPattern.tsx"
-        },
-        {
           "moduleName": "./src/components/articles/Articles.tsx"
         },
         {
@@ -648,36 +681,6 @@
         },
         {
           "moduleName": "./src/components/page-entry/PageEntry.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/interfaces/global-variants.ts",
-      "name": "./src/interfaces/global-variants.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/header-long-component/HeaderLongComponent.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/hero/Hero.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/partner-communication/PartnerCommunication.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/hero/Hero.tsx"
-        },
-        {
-          "moduleName": "./src/components/partner-communication/PartnerCommunication.tsx"
-        },
-        {
-          "moduleName": "./src/components/contact-form-full/contact-form-locales.ts"
-        },
-        {
-          "moduleName": "./src/components/infographic-image/InfoPoint.tsx"
-        },
-        {
-          "moduleName": "./src/components/infographic-image/PointCard.tsx"
         }
       ]
     },
@@ -919,18 +922,6 @@
       ]
     },
     {
-      "id": "./src/components/zsd-link/ZsdLink.tsx",
-      "name": "./src/components/zsd-link/ZsdLink.tsx",
-      "reasons": [
-        {
-          "moduleName": "./src/components/zsd-link/ZsdLink.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/zsd-link/index.ts"
-        }
-      ]
-    },
-    {
       "id": "./src/components/usp-list/usp-card/usp-card.tsx",
       "name": "./src/components/usp-list/usp-card/usp-card.tsx",
       "reasons": [
@@ -939,6 +930,18 @@
         },
         {
           "moduleName": "./src/components/usp-list/usp-card/index.ts"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/zsd-link/ZsdLink.tsx",
+      "name": "./src/components/zsd-link/ZsdLink.tsx",
+      "reasons": [
+        {
+          "moduleName": "./src/components/zsd-link/ZsdLink.stories.tsx"
+        },
+        {
+          "moduleName": "./src/components/zsd-link/index.ts"
         }
       ]
     },
@@ -995,10 +998,10 @@
           "moduleName": "./src/components/layout/Layout.stories.tsx"
         },
         {
-          "moduleName": "./src/components/layout/index.ts"
+          "moduleName": "./src/components/video/Video.tsx"
         },
         {
-          "moduleName": "./src/components/video/Video.tsx"
+          "moduleName": "./src/components/layout/index.ts"
         }
       ]
     },
@@ -1038,9 +1041,6 @@
       "reasons": [
         {
           "moduleName": "./src/components/rich-text/RichText.stories.tsx"
-        },
-        {
-          "moduleName": "./src/components/rich-text/index.ts"
         }
       ]
     },
@@ -1075,32 +1075,11 @@
       ]
     },
     {
-      "id": "./src/components/rich-text/index.ts",
-      "name": "./src/components/rich-text/index.ts",
+      "id": "./src/components/article-card/index.ts",
+      "name": "./src/components/article-card/index.ts",
       "reasons": [
         {
-          "moduleName": "./src/components/accrodion-pattern/AccordionPattern.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/header-short-component/index.ts",
-      "name": "./src/components/header-short-component/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/accrodion-pattern/AccordionPattern.tsx"
-        },
-        {
-          "moduleName": "./src/components/header-short/HeaderShort.tsx"
-        },
-        {
-          "moduleName": "./src/components/multi-link-list/MultiLinkList.tsx"
-        },
-        {
-          "moduleName": "./src/components/rich-text/RichText.tsx"
-        },
-        {
-          "moduleName": "./src/components/single-link-list/SingleLinkList.tsx"
+          "moduleName": "./src/components/articles/Articles.tsx"
         }
       ]
     },
@@ -1108,9 +1087,6 @@
       "id": "./src/components/layout/index.ts",
       "name": "./src/components/layout/index.ts",
       "reasons": [
-        {
-          "moduleName": "./src/components/accrodion-pattern/AccordionPattern.tsx"
-        },
         {
           "moduleName": "./src/components/articles/Articles.tsx"
         },
@@ -1143,15 +1119,6 @@
         },
         {
           "moduleName": "./src/components/page-entry/PageEntry.tsx"
-        }
-      ]
-    },
-    {
-      "id": "./src/components/article-card/index.ts",
-      "name": "./src/components/article-card/index.ts",
-      "reasons": [
-        {
-          "moduleName": "./src/components/articles/Articles.tsx"
         }
       ]
     },
@@ -1359,6 +1326,24 @@
         },
         {
           "moduleName": "./src/components/hero/Hero.tsx"
+        }
+      ]
+    },
+    {
+      "id": "./src/components/header-short-component/index.ts",
+      "name": "./src/components/header-short-component/index.ts",
+      "reasons": [
+        {
+          "moduleName": "./src/components/header-short/HeaderShort.tsx"
+        },
+        {
+          "moduleName": "./src/components/multi-link-list/MultiLinkList.tsx"
+        },
+        {
+          "moduleName": "./src/components/rich-text/RichText.tsx"
+        },
+        {
+          "moduleName": "./src/components/single-link-list/SingleLinkList.tsx"
         }
       ]
     },
