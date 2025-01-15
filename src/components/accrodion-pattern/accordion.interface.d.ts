@@ -1,13 +1,14 @@
-import { BlocksContent } from '../../../node_modules/@strapi/blocks-react-renderer/dist';
-import { GlobalVariants } from '../../interfaces/global-variants';
+import { BlocksContent } from '@strapi/blocks-react-renderer';
+import { HeaderLongProps } from '../header-long';
 
-export interface AccordionPatternProps {
+export interface AccordionContent {
+    title: string;
+    accordionContent: BlocksContent;
+}
+export interface AccordionPatternProps extends Partial<HeaderLongProps> {
     topDescription?: BlocksContent;
     bottomDescription?: BlocksContent;
-    contents: {
-        title: string;
-        accordionContent: BlocksContent;
-    }[];
-    variant?: GlobalVariants;
+    contents: AccordionContent[];
+    headerPosition?: 'top' | 'left';
 }
 //# sourceMappingURL=accordion.interface.d.ts.map
