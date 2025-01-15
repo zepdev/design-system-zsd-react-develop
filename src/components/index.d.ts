@@ -15,6 +15,8 @@ export * from './header-short';
 export * from './hero';
 export * from './small-hero';
 export * from './lead-text';
+export * from './mediatext-product';
+export * from './mediatext-product-pattern';
 export * from './mediaText-simple';
 export * from './multi-link-list';
 export * from './product-highlight';
