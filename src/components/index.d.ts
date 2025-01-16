@@ -24,4 +24,6 @@ export * from './rich-text';
 export * from './single-link-list';
 export * from './usp-list';
 export * from './zsd-button';
+export * from './media-text-small';
+export * from './media-text-small-pattern';
 //# sourceMappingURL=index.d.ts.map

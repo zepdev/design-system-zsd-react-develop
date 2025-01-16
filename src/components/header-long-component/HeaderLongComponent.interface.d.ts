@@ -3,7 +3,7 @@ import { MouseEvent } from 'react';
 export interface LinkComponentProps {
     linkText?: string;
     linkHref?: string;
-    type?: 'button' | 'link' | 'none';
+    type?: 'primary-button' | 'secondary-button' | 'link' | 'none';
     onClick?: (ev: MouseEvent<HTMLElement>) => void;
 }
 export interface HeaderLongComponentProps extends LinkComponentProps {
