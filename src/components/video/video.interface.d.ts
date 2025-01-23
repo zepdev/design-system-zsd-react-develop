@@ -1,7 +1,8 @@
 export interface SingleVideo {
     title: string;
-    tagline: string;
-    description: string;
+    tagline?: string;
+    type?: 'primary-button' | 'secondary-button' | 'link' | 'none';
+    description?: string;
     url: string;
     thumbnail: string;
     linkHref?: string;
