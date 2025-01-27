@@ -9,6 +9,8 @@ export * from './card-media-pattern/card-media-component';
 export * from './card-media-pattern';
 export * from './card-square-list/card-square';
 export * from './card-square-list';
+export * from './contact-card';
+export * from './contact-card-pattern';
 export * from './footer';
 export * from './header-long';
 export * from './header-short';

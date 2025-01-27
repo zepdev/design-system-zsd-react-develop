@@ -7,5 +7,6 @@ export interface ContactCardProps {
     phone?: string;
     fax?: string;
     address?: string;
+    className?: string;
 }
 //# sourceMappingURL=contact-card.interface.d.ts.map
