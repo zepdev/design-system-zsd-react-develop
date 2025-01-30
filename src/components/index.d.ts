@@ -24,6 +24,7 @@ export * from './multi-link-list';
 export * from './product-highlight';
 export * from './rich-text';
 export * from './single-link-list';
+export * from './SH-corp';
 export * from './usp-list';
 export * from './zsd-button';
 export * from './media-text-small';
