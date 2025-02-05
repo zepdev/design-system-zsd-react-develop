@@ -19,5 +19,8 @@ export declare const Default: Story;
 export declare const WithHeadline: Story;
 export declare const With3Items: Story;
 export declare const With4Items: Story;
+export declare const With5Items: Story;
+export declare const With6Items: Story;
+export declare const With7Items: Story;
 export declare const With8Items: Story;
 //# sourceMappingURL=MediaTextSmallPattern.stories.d.ts.map
