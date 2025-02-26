@@ -13,5 +13,6 @@ export interface MediaTextProductProps {
     imageAlt?: string;
     buttonLabel?: string;
     fileSizes?: string;
+    hasButton?: boolean;
 }
 //# sourceMappingURL=mediatext-product.interface.d.ts.map

@@ -11,6 +11,12 @@ declare const meta: {
                 type: string;
             };
         };
+        hasButton: {
+            control: {
+                type: string;
+            };
+            defaultValue: boolean;
+        };
     };
 };
 export default meta;

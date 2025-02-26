@@ -3,5 +3,6 @@ import { MediaTextProductProps } from '../mediatext-product/mediatext-product.in
 
 export interface MediaTextProductPatternProps extends Partial<HeaderLongProps> {
     items: MediaTextProductProps[];
+    hasButton?: boolean;
 }
 //# sourceMappingURL=mediatext-product-pattern.interface.d.ts.map
