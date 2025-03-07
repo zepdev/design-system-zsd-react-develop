@@ -29,4 +29,6 @@ export * from './usp-list';
 export * from './zsd-button';
 export * from './media-text-small';
 export * from './media-text-small-pattern';
+export * from './media-text-component';
+export * from './media-text-component-pattern';
 //# sourceMappingURL=index.d.ts.map
