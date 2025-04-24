@@ -12,7 +12,7 @@ export interface ZpsButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> 
     label?: string;
     variant?: ZsdButtonVariant;
     icon?: FunctionalIconNames;
-    iconPosition?: 'left' | 'right';
+    iconPosition?: 'left' | 'right' | 'none';
     isLoading?: boolean;
     children?: ReactNode;
     onClick?: (ev: MouseEvent<HTMLElement>) => void;

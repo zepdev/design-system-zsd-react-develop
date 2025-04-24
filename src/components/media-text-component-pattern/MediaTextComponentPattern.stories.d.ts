@@ -1,5 +1,5 @@
 import { StoryObj } from '@storybook/react';
-import { MediaTextComponentPatternProps } from './media-textcomponent-pattern.interfce';
+import { MediaTextComponentPatternProps } from './media-text-component-pattern.interfce';
 
 declare const meta: {
     title: string;

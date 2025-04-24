@@ -2,7 +2,7 @@ import { LinkProps } from '@zepdev/design-system-component-library-react';
 
 export interface MediaTextComponentProps {
     mediaUrl: string;
-    mediaType: 'image' | 'video';
+    mediaType: 'image' | 'video' | 'none';
     imageOrientation?: 'horizontal' | 'vertical';
     imageAlt?: string;
     mediaPosition: 'left' | 'right';
