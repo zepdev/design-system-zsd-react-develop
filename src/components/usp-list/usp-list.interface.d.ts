@@ -1,7 +1,9 @@
-import { USPProps } from './usp-card';
-import { HeaderLongComponentProps } from '../header-long-component';
+import { USPProps } from '../USP';
 
-export interface USPListProps extends HeaderLongComponentProps {
-    uspCards: USPProps[];
+export interface USPListProps {
+    headerTitle: string;
+    tagline?: string;
+    uspCards?: USPProps[];
+    id?: string;
 }
 //# sourceMappingURL=usp-list.interface.d.ts.map

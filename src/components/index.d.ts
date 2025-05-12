@@ -1,7 +1,6 @@
 
 export * from '../interfaces/global-variants';
 export * from './Teaser-simple';
-export * from './usp-list/usp-card';
 export * from './accrodion-pattern';
 export * from './anchor-navigation-list';
 export * from './anchor-navigation-list/anchor-navigation-tab';
@@ -31,4 +30,6 @@ export * from './media-text-small';
 export * from './media-text-small-pattern';
 export * from './media-text-component';
 export * from './media-text-component-pattern';
+export * from './USP';
+export * from './usp-list';
 //# sourceMappingURL=index.d.ts.map
